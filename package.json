@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Production-ready multi-session WhatsApp bot built with Baileys.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.22",
+    "chalk": "^5.3.0",
+    "install": "^0.13.0",
+    "npm": "^11.17.0",
+    "pino": "^9.4.0"
+  }
+}
